@@ -221,10 +221,11 @@ const Timeline = () => {
                         <p className="text-neutral-500 mb-8 max-w-xl mx-auto">Currently open for new opportunities and collaborations on exciting projects.</p>
                         <a
                             href="/resume.pdf"
-                            download
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="px-8 py-4 bg-neutral-600 hover:bg-neutral-500 text-white rounded-2xl font-bold transition-all hover:scale-105 shadow-xl shadow-neutral-800/20 inline-block"
                         >
-                            Let's Build Something Great
+                            View Resume
                         </a>
                     </div>
                     <div className="absolute -bottom-20 -right-20 w-64 h-64 bg-neutral-800/10 rounded-full blur-3xl group-hover:bg-neutral-600/20 transition-colors duration-700" />

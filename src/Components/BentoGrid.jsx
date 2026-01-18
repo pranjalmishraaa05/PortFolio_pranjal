@@ -43,8 +43,16 @@ const BentoGrid = () => {
                                 <a href="https://www.instagram.com/not_arhaan/" target="_blank" rel="noopener noreferrer" className="aspect-square bg-neutral-900/50 border border-neutral-800 rounded-2xl flex items-center justify-center hover:bg-neutral-800 transition-colors">
                                     <Instagram className="w-6 h-6" />
                                 </a>
-                                <a href="https://github.com/arhanalam789" target="_blank" rel="noopener noreferrer" className="aspect-square bg-neutral-900/50 border border-neutral-800 rounded-2xl flex items-center justify-center hover:bg-neutral-800 transition-colors">
-                                    <Code className="w-6 h-6" />
+                                <a href="https://leetcode.com/u/arhanalam789/" target="_blank" rel="noopener noreferrer" className="aspect-square bg-neutral-900/50 border border-neutral-800 rounded-2xl flex items-center justify-center hover:bg-neutral-800 transition-colors group">
+                                    <svg
+                                        viewBox="0 0 24 24"
+                                        className="w-6 h-6 fill-neutral-400 group-hover:fill-orange-500 transition-colors"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path d="M13.483 0a1.374 1.374 0 0 0-.961.41L7.116 5.45a1.375 1.375 0 1 0 1.94 1.94l5.407-5.407a1.375 1.375 0 0 0-1.94-1.94z" />
+                                        <path d="M9.833 3.41L3.897 9.346a3.25 3.25 0 0 0 0 4.596l5.936 5.936a3.25 3.25 0 0 0 4.596 0l5.936-5.936a3.25 3.25 0 0 0 0-4.596l-5.936-5.936a3.25 3.25 0 0 0-4.596 0zm.454 1.159c.708-.708 1.856-.708 2.564 0l5.936 5.936c.708.708.708 1.856 0 2.564l-5.936 5.936c-.708.708-1.856.708-2.564 0l-5.936-5.936c-.708-.708-.708-1.856 0-2.564L10.287 4.57z" />
+                                        <path d="M12.44 14.15l-1.02-1.02a.82.82 0 1 0-1.16 1.16l1.6 1.6c.32.32.84.32 1.16 0l1.6-1.6a.82.82 0 1 0-1.16-1.16l-1.02 1.02z" />
+                                    </svg>
                                 </a>
                             </div>
 
@@ -69,11 +77,12 @@ const BentoGrid = () => {
 
                             <a
                                 href="/resume.pdf"
-                                download
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="w-full bg-neutral-800 hover:bg-neutral-900 text-white font-bold py-3 px-6 rounded-xl flex items-center justify-center gap-2 transition-colors"
                             >
-                                Download for free
-                                <span className="text-lg">😁</span>
+                                View Resume
+                                <span className="text-lg">📄</span>
                             </a>
                         </div>
 
