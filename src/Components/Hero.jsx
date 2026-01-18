@@ -103,23 +103,19 @@ const Hero = () => {
                     className="relative order-1 lg:order-2 flex justify-center items-center"
                 >
                     <div className="relative group">
-                        {/* Interactive Background Glow */}
                         <div className="absolute -inset-4 bg-gradient-to-r from-neutral-800 via-neutral-600 to-neutral-900 rounded-[2.5rem] blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
 
-                        {/* Main Image Container */}
                         <div className="relative w-[300px] h-[400px] md:w-[400px] md:h-[550px] rounded-[2rem] overflow-hidden border border-neutral-800/50 backdrop-blur-sm shadow-2xl">
                             <img
                                 src="/IMG_3082.jpeg"
                                 alt="Arhan Alam Profile"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                             />
-                            {/* Glass Overlay on Bottom */}
                             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
                                 <p className="text-white/70 text-xs tracking-widest uppercase font-medium">Currently based in India</p>
                             </div>
                         </div>
 
-                        {/* Floating elements */}
                         <motion.div
                             animate={{ rotate: 360 }}
                             transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
