@@ -7,15 +7,15 @@ const Footer = () => {
     }
 
     return (
-        <footer id="contact" className="w-full bg-black text-white pt-20 pb-8 px-6 md:px-20 overflow-hidden relative">
+        <footer id="contact" className="w-full bg-black text-white pt-16 sm:pt-20 pb-8 px-4 sm:px-6 md:px-20 overflow-hidden relative">
             <div className="max-w-7xl mx-auto flex flex-col gap-16">
 
                 <div className="relative">
-                    <h2 className="text-6xl md:text-[10rem] font-bold uppercase leading-none tracking-tighter text-center md:text-left">
+                    <h2 className="text-5xl sm:text-6xl md:text-[10rem] font-bold uppercase leading-none tracking-tighter text-center md:text-left">
                         LET'S WORK
                     </h2>
                     <div className="flex justify-center md:justify-start md:pl-40 -mt-4 md:-mt-12 relative z-20">
-                        <span className="text-6xl md:text-[10rem] text-neutral-500 font-['Sacramento']">
+                        <span className="text-5xl sm:text-6xl md:text-[10rem] text-neutral-500 font-['Sacramento']">
                             Together !
                         </span>
                     </div>
@@ -43,11 +43,11 @@ const Footer = () => {
 
                 <div className="flex flex-col gap-8">
                     <div className="w-full h-px bg-neutral-800"></div>
-                    <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-lg md:text-xl text-neutral-300">
-                        <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="hover:text-purple-500 transition-colors">
+                    <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-base sm:text-lg md:text-xl text-neutral-300">
+                        <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="hover:text-purple-500 transition-colors break-all text-center md:text-left">
                             pranjal.mishra2024@makers.rishihood.edu.in
                         </a>
-                        <a href="tel:+917235040768" className="hover:text-purple-500 transition-colors">
+                        <a href="tel:+917235040768" className="hover:text-purple-500 transition-colors text-center md:text-right">
                             +91 7235040768
                         </a>
                     </div>

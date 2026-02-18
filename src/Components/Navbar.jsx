@@ -1,5 +1,5 @@
-import React, { useState, useRef } from 'react';
-import { motion, useScroll, useMotionValueEvent, AnimatePresence } from 'framer-motion';
+import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
 import { cn } from '../lib/utils';
 
@@ -39,8 +39,8 @@ const Navbar = () => {
                 to={link.href}
                 onClick={(e) => handleClick(e, link)}
                 className={cn(
-                    "relative z-10 px-4 py-2 text-sm font-medium transition-colors duration-300 rounded-full",
-                    hoveredLink === link.name ? "text-white" : "text-neutral-400"
+                    "relative z-10 px-2.5 sm:px-3.5 md:px-4 py-1.5 md:py-2 text-xs md:text-sm font-medium transition-colors duration-300 rounded-full whitespace-nowrap",
+                    hoveredLink === link.name ? "text-white" : "text-neutral-300 md:text-neutral-400"
                 )}
             >
                 {link.name}
@@ -67,26 +67,26 @@ const Navbar = () => {
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
-            className="fixed top-0 left-0 right-0 z-[100] flex justify-center pt-6 px-4"
+            className="fixed top-0 left-0 right-0 z-[100] flex justify-center pt-4 sm:pt-6 px-3 sm:px-4"
         >
-            <nav className="relative bg-black/60 backdrop-blur-xl border border-white/5 rounded-full px-6 py-2 shadow-[0_20px_50px_rgba(0,0,0,0.5)] flex items-center gap-2">
+            <nav className="relative bg-black/60 backdrop-blur-xl border border-white/5 rounded-2xl md:rounded-full px-3 sm:px-4 md:px-6 py-2 shadow-[0_20px_50px_rgba(0,0,0,0.5)] flex items-center gap-1 sm:gap-2 max-w-full">
 
                 {/* Left Links */}
-                <ul className="hidden md:flex items-center gap-1">
+                <ul className="flex items-center gap-1">
                     {navLinks.slice(0, 2).map((link, idx) => (
                         <NavLink key={link.name} link={link} index={idx} />
                     ))}
                 </ul>
 
                 {/* Center Brand */}
-                <div className="flex items-center mx-4 gap-3 bg-neutral-900/50 px-4 py-1.5 rounded-full border border-white/5 hover:border-white/10 transition-colors group">
+                <div className="flex items-center mx-1 sm:mx-2 md:mx-4 gap-2 sm:gap-3 bg-neutral-900/50 px-2.5 sm:px-4 py-1.5 rounded-full border border-white/5 hover:border-white/10 transition-colors group shrink-0">
                     <motion.img
                         whileHover={{ rotate: 180 }}
                         src="/logo.svg"
                         alt="Logo"
-                        className="w-6 h-6"
+                        className="w-5 h-5 sm:w-6 sm:h-6"
                     />
-                    <Link to="/" className="text-sm font-bold tracking-[0.2em] text-white">PRANJAL</Link>
+                    <Link to="/" className="hidden sm:block text-xs md:text-sm font-bold tracking-[0.2em] text-white">PRANJAL</Link>
                 </div>
 
                 {/* Right Links */}

@@ -4,19 +4,19 @@ import { Vortex } from './ui/vortex'
 const Myself = () => {
     return (
         <section id="about" className="w-full bg-black text-white relative overflow-hidden">
-            <div className="h-[40rem] md:h-[50rem] w-full rounded-md overflow-hidden">
+            <div className="min-h-[44rem] md:min-h-[50rem] w-full rounded-md overflow-hidden">
                 <Vortex
                     backgroundColor="black"
                     rangeY={800}
                     particleCount={500}
                     baseHue={0}
                     hue={0}
-                    className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
+                    className="flex items-start md:items-center flex-col justify-center px-4 sm:px-6 md:px-10 py-10 md:py-4 w-full h-full"
                 >
-                    <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-12 relative z-20">
+                    <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start gap-8 sm:gap-12 relative z-20">
 
-                        <div className="flex items-center gap-6 md:w-1/3">
-                            <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+                        <div className="flex items-center gap-4 sm:gap-6 md:w-1/3">
+                            <h2 className="text-3xl sm:text-4xl md:text-6xl font-bold uppercase tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
                                 About Me
                             </h2>
                             <div className="hidden md:block">
@@ -26,7 +26,7 @@ const Myself = () => {
                             </div>
                         </div>
 
-                        <div className="md:w-2/3 space-y-8 text-lg md:text-xl text-neutral-300 leading-relaxed font-light">
+                        <div className="md:w-2/3 max-w-3xl md:max-w-none space-y-6 sm:space-y-8 text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed font-light">
                             <p>
                                 I am an <span className="text-white font-semibold">entrepreneurship student</span> with practical exposure to startups, digital outreach, and campaign coordination. I enjoy turning ideas into real initiatives and helping teams build stronger visibility through structured execution.
                             </p>

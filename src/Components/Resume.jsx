@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Resume = () => {
     return (
-        <section className="min-h-screen bg-black text-white py-24 px-6 md:px-20 relative overflow-hidden">
+        <section className="min-h-screen bg-black text-white py-16 sm:py-24 px-4 sm:px-6 md:px-20 relative overflow-hidden">
             {/* Background elements */}
             <div className="absolute top-0 left-0 w-full h-full overflow-hidden -z-10">
                 <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-neutral-800/10 rounded-full blur-[120px]" />
@@ -14,13 +14,13 @@ const Resume = () => {
 
             <div className="max-w-4xl mx-auto bg-neutral-900/50 border border-neutral-800 rounded-3xl overflow-hidden backdrop-blur-sm">
                 {/* Header / Contact Info */}
-                <div className="bg-gradient-to-r from-neutral-900/50 to-neutral-900 p-8 md:p-12 border-b border-neutral-800">
+                <div className="bg-gradient-to-r from-neutral-900/50 to-neutral-900 p-6 sm:p-8 md:p-12 border-b border-neutral-800">
                     <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
                         <div>
                             <motion.h1
                                 initial={{ opacity: 0, x: -20 }}
                                 animate={{ opacity: 1, x: 0 }}
-                                className="text-4xl md:text-5xl font-bold tracking-tighter mb-2"
+                                className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tighter mb-2"
                             >
                                 PRANJAL <span className="text-neutral-400">MISHRA</span>
                             </motion.h1>
@@ -33,14 +33,14 @@ const Resume = () => {
                                 Entrepreneur | Student
                             </motion.p>
                         </div>
-                        <div className="flex flex-col gap-3 text-sm text-neutral-300">
+                        <div className="flex flex-col gap-3 text-xs sm:text-sm text-neutral-300 w-full md:w-auto">
                             <a href="tel:+917235040768" className="flex items-center gap-2 hover:text-neutral-500 transition-colors">
                                 <Phone className="w-4 h-4 text-neutral-400" /> +91 7235040768
                             </a>
-                            <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="flex items-center gap-2 hover:text-neutral-500 transition-colors">
+                            <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="flex items-center gap-2 hover:text-neutral-500 transition-colors break-all">
                                 <Mail className="w-4 h-4 text-neutral-400" /> pranjal.mishra2024@makers.rishihood.edu.in
                             </a>
-                            <div className="flex items-center justify-between mt-2">
+                            <div className="flex flex-wrap items-center justify-between gap-3 mt-2">
                                 <div className="flex items-center gap-4">
                                     <a href="https://www.linkedin.com/in/pranjal-mishra-346618323/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-500 active:scale-95 transition-all">
                                         <Linkedin className="w-5 h-5 text-neutral-400" />
@@ -60,7 +60,7 @@ const Resume = () => {
                     </div>
                 </div>
 
-                <div className="p-8 md:p-12 space-y-12">
+                <div className="p-6 sm:p-8 md:p-12 space-y-12">
                     {/* Professional Summary */}
                     <section>
                         <div className="flex items-center gap-3 mb-4">

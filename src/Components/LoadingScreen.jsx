@@ -34,7 +34,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
                     transition={{ duration: 0.8, ease: "easeOut" }}
                     className="relative z-10"
                 >
-                    <h1 className="text-5xl md:text-8xl font-black tracking-[0.2em] text-white">
+                    <h1 className="text-4xl sm:text-5xl md:text-8xl font-black tracking-[0.16em] md:tracking-[0.2em] text-white">
                         <EncryptedText
                             text="PRANJAL"
                             revealDelayMs={80}

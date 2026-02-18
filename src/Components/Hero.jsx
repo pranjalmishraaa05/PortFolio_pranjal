@@ -39,21 +39,21 @@ const Hero = () => {
     };
 
     return (
-        <BackgroundBeamsWithCollision className="min-h-screen py-20 px-8 flex items-center justify-center overflow-hidden">
-            <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center relative z-20">
+        <BackgroundBeamsWithCollision className="min-h-screen py-16 sm:py-20 px-4 sm:px-6 md:px-8 flex items-center justify-center overflow-hidden">
+            <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-24 items-center relative z-20">
 
                 {/* Left Content */}
                 <motion.div
                     variants={containerVariants}
                     initial="hidden"
                     animate="visible"
-                    className="flex flex-col gap-8 order-2 lg:order-1"
+                    className="flex flex-col gap-7 sm:gap-8 order-2 lg:order-1"
                 >
                     <motion.div variants={itemVariants} className="space-y-2">
                         <span className="text-neutral-500 font-medium tracking-[0.2em] uppercase text-sm block">
                             Available for internships
                         </span>
-                        <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9]">
+                        <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9]">
                             <EncryptedText
                                 text="PRANJAL MISHRA"
                                 className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-300 via-neutral-100 to-neutral-500"
@@ -65,22 +65,22 @@ const Hero = () => {
                     </motion.div>
 
                     <motion.div variants={itemVariants} className="relative">
-                        <h2 className="text-5xl md:text-7xl font-['Sacramento'] text-transparent bg-clip-text bg-gradient-to-r from-neutral-200 to-neutral-500">
+                        <h2 className="text-4xl sm:text-5xl md:text-7xl font-['Sacramento'] text-transparent bg-clip-text bg-gradient-to-r from-neutral-200 to-neutral-500">
                             Entrepreneur & Student
                         </h2>
-                        <p className="max-w-md text-neutral-400 text-lg md:text-xl font-light leading-relaxed mt-4">
+                        <p className="max-w-md text-neutral-400 text-base sm:text-lg md:text-xl font-light leading-relaxed mt-4">
                             Entrepreneurship student with hands-on experience across startup operations, digital outreach, and campaign coordination.
                         </p>
                     </motion.div>
 
-                    <motion.div variants={itemVariants} className="flex flex-wrap gap-6 items-center pt-4">
+                    <motion.div variants={itemVariants} className="flex flex-col sm:flex-row sm:flex-wrap gap-6 items-start sm:items-center pt-2 sm:pt-4">
                         <a
                             href="#projects"
-                            className="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-neutral-200 transition-all transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
+                            className="w-full sm:w-auto text-center px-7 sm:px-8 py-3.5 sm:py-4 bg-white text-black font-semibold rounded-full hover:bg-neutral-200 transition-all transform hover:scale-105 active:scale-95 shadow-[0_0_20px_rgba(255,255,255,0.3)]"
                         >
                             View Projects
                         </a>
-                        <div className="flex gap-8 border-l border-neutral-800 pl-8">
+                        <div className="flex gap-6 sm:gap-8 border-t sm:border-t-0 sm:border-l border-neutral-800 pt-4 sm:pt-0 sm:pl-8 w-full sm:w-auto">
                             <div className="text-center">
                                 <span className="block text-2xl font-bold h-8">3+</span>
                                 <span className="text-[10px] text-neutral-500 uppercase tracking-widest">Ventures</span>
@@ -105,7 +105,7 @@ const Hero = () => {
                     <div className="relative group">
                         <div className="absolute -inset-4 bg-gradient-to-r from-neutral-800 via-neutral-600 to-neutral-900 rounded-[2.5rem] blur-2xl opacity-20 group-hover:opacity-40 transition-opacity duration-500" />
 
-                        <div className="relative w-[300px] h-[400px] md:w-[400px] md:h-[550px] rounded-[2rem] overflow-hidden border border-neutral-800/50 backdrop-blur-sm shadow-2xl">
+                        <div className="relative w-full max-w-[320px] h-[420px] sm:max-w-[360px] sm:h-[500px] md:max-w-none md:w-[400px] md:h-[550px] rounded-[2rem] overflow-hidden border border-neutral-800/50 backdrop-blur-sm shadow-2xl">
                             <img
                                 src="/projects/mainpic.png"
                                 alt="Pranjal Mishra Profile"
@@ -130,7 +130,7 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 2 }}
-                className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 pointer-events-none"
+                className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2 hidden sm:flex flex-col items-center gap-2 pointer-events-none"
             >
                 <div className="w-6 h-10 border-2 border-neutral-800 rounded-full flex justify-center p-1">
                     <motion.div
