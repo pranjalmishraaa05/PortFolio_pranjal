@@ -5,23 +5,23 @@ import { BackgroundBeamsWithCollision } from './ui/background-beams-with-collisi
 const reviews = [
     {
         id: 1,
-        text: "Working with Arhan was an absolute pleasure! His creativity knows no bounds, and he consistently delivered designs that exceeded our expectations. His attention to detail and ability to capture our brand essence truly set him apart.",
-        name: "Gokul kumar MC",
-        role: "CEO, Blusim Technologies",
+        text: "Co-leading the development of automated vending machine solutions for beverage retail in high-footfall locations, with active contribution to business strategy, partnership development, and operational planning.",
+        name: "Elite Vendz",
+        role: "Co-Founder | Jan 2026 - Present",
         image: "https://randomuser.me/api/portraits/men/32.jpg"
     },
     {
         id: 2,
-        text: "I thought I knew web design until I met Arhan. He turned our spaghetti code into a Michelin-star meal. 10/10 would recommend. He even fixed bugs we didn't know we had!",
-        name: "Sarah Jenkins",
-        role: "CTO, TechFlow",
+        text: "Built and ran a web development agency delivering websites and digital solutions for startups and small businesses, handling client communication, project coordination, and online visibility support.",
+        name: "Nexora",
+        role: "Founder | Feb 2025 - Sep 2025",
         image: "https://randomuser.me/api/portraits/women/44.jpg"
     },
     {
         id: 3,
-        text: "Arhan is a wizard. He took our vague ideas and turned them into a stunning reality. The site is fast, responsive, and looks amazing on every device. I'm already planning our next project with him.",
-        name: "David Lee",
-        role: "Product Manager, InnovateX",
+        text: "Led the development of a fashion technology platform connecting emerging designers with budget-conscious consumers, with focus on branding, creator partnerships, and sustainable-fashion positioning.",
+        name: "Lehzaaa",
+        role: "Founder & CEO | Present",
         image: "https://randomuser.me/api/portraits/men/67.jpg"
     }
 ]
@@ -40,11 +40,11 @@ const Testimonials = () => {
                         className="text-center space-y-4"
                     >
                         <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter">
-                            Kind Words, Real Humans
+                            Experience Highlights
                         </h2>
                         <div className="flex items-center justify-center gap-4 text-neutral-400">
                             <span className="hidden md:block text-2xl">~</span>
-                            <p className="text-lg md:text-xl font-light italic">5-Star Reviews That Aren't From My Mom</p>
+                            <p className="text-lg md:text-xl font-light italic">Real startup milestones from my CV</p>
                             <span className="hidden md:block text-2xl">~</span>
                         </div>
                     </motion.div>
@@ -59,10 +59,10 @@ const Testimonials = () => {
                             className="self-end flex items-end gap-4 max-w-2xl"
                         >
                             <div className="bg-neutral-900 border border-neutral-800 rounded-3xl rounded-br-none p-6 text-xl text-neutral-200 shadow-lg shadow-neutral-900/10">
-                                <p>Hey guys! How was your experience working with me?</p>
+                                <p>Here are key milestones from my entrepreneurial journey.</p>
                             </div>
                             <div className="w-12 h-12 rounded-full bg-neutral-600 overflow-hidden border-2 border-black shrink-0">
-                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Arhan" alt="Me" className="w-full h-full object-cover" />
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Pranjal-Mishra" alt="Me" className="w-full h-full object-cover" />
                             </div>
                         </motion.div>
 

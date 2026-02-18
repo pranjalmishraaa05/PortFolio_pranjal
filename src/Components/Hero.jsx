@@ -51,11 +51,11 @@ const Hero = () => {
                 >
                     <motion.div variants={itemVariants} className="space-y-2">
                         <span className="text-neutral-500 font-medium tracking-[0.2em] uppercase text-sm block">
-                            Available for projects
+                            Available for internships
                         </span>
                         <h1 className="text-6xl md:text-8xl font-bold tracking-tighter text-white leading-[0.9]">
                             <EncryptedText
-                                text="ARHAN ALAM"
+                                text="PRANJAL MISHRA"
                                 className="text-transparent bg-clip-text bg-gradient-to-r from-neutral-300 via-neutral-100 to-neutral-500"
                                 revealDelayMs={50}
                                 flipDelayMs={40}
@@ -66,10 +66,10 @@ const Hero = () => {
 
                     <motion.div variants={itemVariants} className="relative">
                         <h2 className="text-5xl md:text-7xl font-['Sacramento'] text-transparent bg-clip-text bg-gradient-to-r from-neutral-200 to-neutral-500">
-                            Digital Craftsman
+                            Entrepreneur & Student
                         </h2>
                         <p className="max-w-md text-neutral-400 text-lg md:text-xl font-light leading-relaxed mt-4">
-                            Building immersive web experiences where code meets art. Specialized in modern front-end and robust back-end architectures.
+                            Entrepreneurship student with hands-on experience across startup operations, digital outreach, and campaign coordination.
                         </p>
                     </motion.div>
 
@@ -82,12 +82,12 @@ const Hero = () => {
                         </a>
                         <div className="flex gap-8 border-l border-neutral-800 pl-8">
                             <div className="text-center">
-                                <span className="block text-2xl font-bold h-8">5+</span>
-                                <span className="text-[10px] text-neutral-500 uppercase tracking-widest">Projects</span>
+                                <span className="block text-2xl font-bold h-8">3+</span>
+                                <span className="text-[10px] text-neutral-500 uppercase tracking-widest">Ventures</span>
                             </div>
                             <div className="text-center">
-                                <span className="block text-2xl font-bold h-8">2+</span>
-                                <span className="text-[10px] text-neutral-500 uppercase tracking-widest">Years Exp.</span>
+                                <span className="block text-2xl font-bold h-8">6000+</span>
+                                <span className="text-[10px] text-neutral-500 uppercase tracking-widest">Film Views</span>
                             </div>
                         </div>
                     </motion.div>
@@ -107,8 +107,8 @@ const Hero = () => {
 
                         <div className="relative w-[300px] h-[400px] md:w-[400px] md:h-[550px] rounded-[2rem] overflow-hidden border border-neutral-800/50 backdrop-blur-sm shadow-2xl">
                             <img
-                                src="/IMG_3082.jpeg"
-                                alt="Arhan Alam Profile"
+                                src="/projects/mainpic.png"
+                                alt="Pranjal Mishra Profile"
                                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                             />
                             <div className="absolute bottom-0 left-0 right-0 p-6 bg-gradient-to-t from-black/80 via-black/40 to-transparent">
@@ -145,4 +145,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

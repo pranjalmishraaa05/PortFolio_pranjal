@@ -17,7 +17,7 @@ const Myself = () => {
 
                         <div className="flex items-center gap-6 md:w-1/3">
                             <h2 className="text-4xl md:text-6xl font-bold uppercase tracking-tighter bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-                                Me, Myself
+                                About Me
                             </h2>
                             <div className="hidden md:block">
                                 <svg width="100" height="20" viewBox="0 0 100 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -28,15 +28,15 @@ const Myself = () => {
 
                         <div className="md:w-2/3 space-y-8 text-lg md:text-xl text-neutral-300 leading-relaxed font-light">
                             <p>
-                                I am a passionate <span className="text-white font-semibold">Web Developer</span> with a knack for crafting robust and scalable web applications. With a strong foundation in the MERN stack and a keen eye for detail, I transform complex requirements into seamless user experiences. My code isn't just functional; it's a piece of art designed to perform.
+                                I am an <span className="text-white font-semibold">entrepreneurship student</span> with practical exposure to startups, digital outreach, and campaign coordination. I enjoy turning ideas into real initiatives and helping teams build stronger visibility through structured execution.
                             </p>
 
                             <p>
-                                My journey is driven by a constant desire to learn and innovate. Whether it's building complex backend systems, optimizing database queries, or creating sleek frontend interfaces, I focus on writing <span className="text-white font-semibold">clean, efficient code</span> that solves real-world problems. I believe in the power of technology to bridge gaps and create meaningful impact.
+                                My journey includes co-leading automated retail work at Elite Vendz and building ventures such as Nexora and Lehzaaa. Across these roles, I have worked on client communication, branding, partnership coordination, and growth-focused execution while staying consistent with delivery.
                             </p>
 
                             <p>
-                                Beyond the screen, I'm always exploring new technologies and staying updated with the latest industry trends. I thrive in collaborative environments where ideas flow freely and innovation is encouraged. Let's build something extraordinary together.
+                                I am seeking a social media internship where I can contribute creativity, consistency, and growth-driven content strategies while continuing to learn through real campaign execution.
                             </p>
                         </div>
 

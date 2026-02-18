@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
 
                     <div className="hidden md:flex justify-end -mt-24">
-                        <a href="mailto:arhanalam789@gmail.com" className="relative w-40 h-40 group cursor-pointer">
+                        <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="relative w-40 h-40 group cursor-pointer">
                             <div className="absolute inset-0 animate-[spin_10s_linear_infinite] group-hover:pause">
                                 <svg viewBox="0 0 100 100" width="100%" height="100%">
                                     <defs>
@@ -44,17 +44,17 @@ const Footer = () => {
                 <div className="flex flex-col gap-8">
                     <div className="w-full h-px bg-neutral-800"></div>
                     <div className="flex flex-col md:flex-row justify-between items-center gap-6 text-lg md:text-xl text-neutral-300">
-                        <a href="mailto:arhanalam789@gmail.com" className="hover:text-purple-500 transition-colors">
-                            arhanalam789@gmail.com
+                        <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="hover:text-purple-500 transition-colors">
+                            pranjal.mishra2024@makers.rishihood.edu.in
                         </a>
-                        <a href="tel:+919685793878" className="hover:text-purple-500 transition-colors">
-                            +91 9685793878
+                        <a href="tel:+917235040768" className="hover:text-purple-500 transition-colors">
+                            +91 7235040768
                         </a>
                     </div>
                 </div>
 
                 <div className="md:hidden flex justify-center py-10">
-                    <a href="mailto:arhanalam789@gmail.com" className="relative w-32 h-32 group cursor-pointer">
+                    <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="relative w-32 h-32 group cursor-pointer">
                         <div className="absolute inset-0 animate-[spin_10s_linear_infinite]">
                             <svg viewBox="0 0 100 100" width="100%" height="100%">
                                 <defs>
@@ -74,8 +74,8 @@ const Footer = () => {
                 </div>
 
                 <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-8 border-t border-neutral-800">
-                    <p className="text-neutral-500 text-sm">Copyright 2026 by Arhan Alam</p>
-                    <h3 className="text-2xl font-bold tracking-wider">ARHAN</h3>
+                    <p className="text-neutral-500 text-sm">Copyright 2026 by Pranjal Mishra</p>
+                    <h3 className="text-2xl font-bold tracking-wider">PRANJAL</h3>
                     <button
                         onClick={scrollToTop}
                         className="flex items-center gap-2 text-neutral-400 hover:text-white transition-colors group"

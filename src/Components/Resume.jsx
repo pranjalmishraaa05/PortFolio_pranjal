@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, Linkedin, Github, MapPin, ExternalLink, GraduationCap, Briefcase, Rocket, Cpu, Award } from 'lucide-react';
+import { Mail, Phone, Linkedin, Github, ExternalLink, GraduationCap, Briefcase, Rocket, Cpu, Award } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const Resume = () => {
@@ -22,7 +22,7 @@ const Resume = () => {
                                 animate={{ opacity: 1, x: 0 }}
                                 className="text-4xl md:text-5xl font-bold tracking-tighter mb-2"
                             >
-                                ARHAN <span className="text-neutral-400">ALAM</span>
+                                PRANJAL <span className="text-neutral-400">MISHRA</span>
                             </motion.h1>
                             <motion.p
                                 initial={{ opacity: 0, x: -20 }}
@@ -30,22 +30,22 @@ const Resume = () => {
                                 transition={{ delay: 0.1 }}
                                 className="text-neutral-400 text-lg md:text-xl font-light"
                             >
-                                Full Stack Developer
+                                Entrepreneur | Student
                             </motion.p>
                         </div>
                         <div className="flex flex-col gap-3 text-sm text-neutral-300">
-                            <a href="tel:+919685793878" className="flex items-center gap-2 hover:text-neutral-500 transition-colors">
-                                <Phone className="w-4 h-4 text-neutral-400" /> +91 9685793878
+                            <a href="tel:+917235040768" className="flex items-center gap-2 hover:text-neutral-500 transition-colors">
+                                <Phone className="w-4 h-4 text-neutral-400" /> +91 7235040768
                             </a>
-                            <a href="mailto:arhan.alam2024@nst.rishihood.edu.in" className="flex items-center gap-2 hover:text-neutral-500 transition-colors">
-                                <Mail className="w-4 h-4 text-neutral-400" /> arhan.alam2024@nst.rishihood.edu.in
+                            <a href="mailto:pranjal.mishra2024@makers.rishihood.edu.in" className="flex items-center gap-2 hover:text-neutral-500 transition-colors">
+                                <Mail className="w-4 h-4 text-neutral-400" /> pranjal.mishra2024@makers.rishihood.edu.in
                             </a>
                             <div className="flex items-center justify-between mt-2">
                                 <div className="flex items-center gap-4">
-                                    <a href="https://linkedin.com/in/arhanalam789" target="_blank" className="hover:text-neutral-500 active:scale-95 transition-all">
+                                    <a href="https://www.linkedin.com/in/pranjal-mishra-346618323/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-500 active:scale-95 transition-all">
                                         <Linkedin className="w-5 h-5 text-neutral-400" />
                                     </a>
-                                    <a href="https://github.com/arhanalam789" target="_blank" className="hover:text-neutral-500 active:scale-95 transition-all">
+                                    <a href="http://nexorabuildweb.in/" target="_blank" rel="noopener noreferrer" className="hover:text-neutral-500 active:scale-95 transition-all">
                                         <Github className="w-5 h-5 text-neutral-400" />
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@ const Resume = () => {
                             <h2 className="text-xl font-bold uppercase tracking-widest text-neutral-500">Professional Summary</h2>
                         </div>
                         <p className="text-neutral-400 leading-relaxed">
-                            Full Stack Developer focused on delivering high-performance web applications. Experienced in front-end design, backend logic, and real-time features.
+                            Entrepreneurship student and enthusiast with practical experience in startups, digital outreach, networking, and campaign coordination. Founder and operator of ventures in web development, fashion tech, and automated retail, with a strong focus on communication, audience engagement, and growth-oriented execution. Actively seeking a Social Media Internship role.
                         </p>
                     </section>
 
@@ -82,31 +82,28 @@ const Resume = () => {
                             <div className="relative pl-6 border-l border-neutral-800/30">
                                 <div className="absolute w-2 h-2 bg-neutral-600 rounded-full -left-1.5 top-2" />
                                 <div className="flex justify-between items-start flex-wrap gap-2">
-                                    <h3 className="font-bold text-lg">Bachelor of Technology (Computer Science)</h3>
+                                    <h3 className="font-bold text-lg">BBA in Entrepreneurship</h3>
                                     <span className="text-neutral-400 font-mono text-sm">2024 - 2028</span>
                                 </div>
-                                <p className="text-neutral-300">Rishihood University, Newton School Of Technology</p>
-                                <p className="text-neutral-500 text-sm mt-1">Grade: 7.79 / 10.0</p>
+                                <p className="text-neutral-300">Rishihood University</p>
                             </div>
 
                             <div className="relative pl-6 border-l border-neutral-800/30">
                                 <div className="absolute w-2 h-2 bg-neutral-600 rounded-full -left-1.5 top-2" />
                                 <div className="flex justify-between items-start flex-wrap gap-2">
-                                    <h3 className="font-bold text-lg">Intermediate (Class XII)</h3>
-                                    <span className="text-neutral-400 font-mono text-sm">2023 - 2024</span>
+                                    <h3 className="font-bold text-lg">Higher Secondary Education</h3>
+                                    <span className="text-neutral-400 font-mono text-sm">2021 - 2023</span>
                                 </div>
-                                <p className="text-neutral-300">Royals Academy School Kota</p>
-                                <p className="text-neutral-500 text-sm mt-1">Grade: 90.0%</p>
+                                <p className="text-neutral-300">Tabish Public School</p>
                             </div>
 
                             <div className="relative pl-6 border-l border-neutral-800/30">
                                 <div className="absolute w-2 h-2 bg-neutral-600 rounded-full -left-1.5 top-2" />
                                 <div className="flex justify-between items-start flex-wrap gap-2">
-                                    <h3 className="font-bold text-lg">Matriculation (Class X)</h3>
-                                    <span className="text-neutral-400 font-mono text-sm">2021 - 2022</span>
+                                    <h3 className="font-bold text-lg">Schooling</h3>
+                                    <span className="text-neutral-400 font-mono text-sm">2009 - 2021</span>
                                 </div>
-                                <p className="text-neutral-300">Christukula Mission Hr Sec School Satna</p>
-                                <p className="text-neutral-500 text-sm mt-1">Grade: 91.0%</p>
+                                <p className="text-neutral-300">Stella Maris Convent School</p>
                             </div>
                         </div>
                     </section>
@@ -120,47 +117,93 @@ const Resume = () => {
                         <div className="space-y-8">
                             <div>
                                 <div className="flex justify-between items-center mb-2 flex-wrap gap-2">
-                                    <h3 className="text-xl font-bold text-white">TuneHive</h3>
+                                    <h3 className="text-xl font-bold text-white">Tomato Pay Economy</h3>
                                     <div className="flex gap-3">
-                                        <a href="https://github.com/arhanalam789/TuneHive" target="_blank" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
-                                            <Github className="w-3 h-3" /> Github
+                                        <a href="https://pranjalmishra2024.wixsite.com/my-site#Contact%20Us" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <Github className="w-3 h-3" /> Website
                                         </a>
-                                        <a href="https://tune-hive-six.vercel.app/" target="_blank" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                        <a href="https://pranjalmishra2024.wixsite.com/my-site#Contact%20Us" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
                                             <ExternalLink className="w-3 h-3" /> Demo
                                         </a>
                                     </div>
                                 </div>
-                                <p className="text-neutral-400 text-xs font-mono mb-3">Tech: React.js, Node.js, Express.js, MongoDB, AWS S3, JWT</p>
+                                <p className="text-neutral-400 text-xs font-mono mb-3">Tech: Wix, Brand Storytelling, Landing Page Design, Agritech Finance Positioning</p>
                                 <p className="text-neutral-400 text-sm leading-relaxed mb-3">
-                                    Developed a full-stack music streaming platform designed to deliver a seamless audio experience with a responsive UI, persistent playback, and robust content management systems.
+                                    Built a finance-focused brand landing page for tomato traders with a strong visual identity and a clear value proposition around flexible payments.
                                 </p>
                                 <ul className="text-neutral-500 text-sm list-disc pl-5 space-y-1">
-                                    <li>Engineered a persistent global music player with advanced controls (seek, volume, queue).</li>
-                                    <li>Integrated AWS S3 for scalable storage of high-quality audio and cover art.</li>
-                                    <li>Built a comprehensive Admin Dashboard and secure JWT authentication.</li>
+                                    <li>Communicated the core offering: Tomato Pay + EMI options for the modern tomato trade.</li>
+                                    <li>Designed a clear conversion path using focused navigation and direct calls to action.</li>
+                                    <li>Aligned visuals and copy to keep the product message simple, bold, and easy to remember.</li>
                                 </ul>
                             </div>
 
                             <div>
                                 <div className="flex justify-between items-center mb-2 flex-wrap gap-2">
-                                    <h3 className="text-xl font-bold text-white">GymLogix</h3>
+                                    <h3 className="text-xl font-bold text-white">Launch Your Startup (YouTube Feature)</h3>
                                     <div className="flex gap-3">
-                                        <a href="https://github.com/arhanalam789/GymLogix" target="_blank" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
-                                            <Github className="w-3 h-3" /> Github
+                                        <a href="https://www.youtube.com/watch?v=Edy-H6PBTt8" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <Github className="w-3 h-3" /> YouTube
                                         </a>
-                                        <a href="https://gym-logix.vercel.app/" target="_blank" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
-                                            <ExternalLink className="w-3 h-3" /> Demo
+                                        <a href="https://www.youtube.com/watch?v=Edy-H6PBTt8" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <ExternalLink className="w-3 h-3" /> Watch
                                         </a>
                                     </div>
                                 </div>
-                                <p className="text-neutral-400 text-xs font-mono mb-3">Tech: React, Next.js, Node.js, MongoDB, Firebase, Tailwind CSS, API Integration</p>
+                                <p className="text-neutral-400 text-xs font-mono mb-3">Type: Long-form YouTube Feature, Founder Interview, Startup Storytelling</p>
                                 <p className="text-neutral-400 text-sm leading-relaxed mb-3">
-                                    Developed a fitness tracking platform enabling users to log workouts, set goals, and track progress through a responsive UI and real-time data handling.
+                                    Featured in a startup-focused video conversation about launching ventures as a teenager or college student, with real examples from Rishihood student founders.
                                 </p>
                                 <ul className="text-neutral-500 text-sm list-disc pl-5 space-y-1">
-                                    <li>Designed scalable backend architecture for authentication and workout data.</li>
-                                    <li>Built secure RESTful APIs for dashboards and progress tracking.</li>
-                                    <li>Integrated ExerciseDB and Nutritionix APIs for comprehensive fitness data.</li>
+                                    <li>Showcases practical startup insights and student entrepreneurship journeys.</li>
+                                    <li>Highlights communication, founder positioning, and narrative-driven personal branding.</li>
+                                    <li>Extends digital presence through long-form content and audience discovery.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div className="flex justify-between items-center mb-2 flex-wrap gap-2">
+                                    <h3 className="text-xl font-bold text-white">THE SCAM | EP 01 (Finanza Club)</h3>
+                                    <div className="flex gap-3">
+                                        <a href="https://youtu.be/56NOmu_z-4A?si=e8rmZRl2HVW0Uy1B" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <Github className="w-3 h-3" /> YouTube
+                                        </a>
+                                        <a href="https://youtu.be/56NOmu_z-4A?si=e8rmZRl2HVW0Uy1B" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <ExternalLink className="w-3 h-3" /> Watch
+                                        </a>
+                                    </div>
+                                </div>
+                                <p className="text-neutral-400 text-xs font-mono mb-3">Type: YouTube Feature, Finanza Club Series, Finance Storytelling</p>
+                                <p className="text-neutral-400 text-sm leading-relaxed mb-3">
+                                    Featured in THE SCAM | EP 01, an introductory finance-series episode built for educational awareness and engaging digital storytelling.
+                                </p>
+                                <ul className="text-neutral-500 text-sm list-disc pl-5 space-y-1">
+                                    <li>Strengthens finance and community-oriented content positioning.</li>
+                                    <li>Builds audience reach through platform-native long-form video.</li>
+                                    <li>Adds another high-visibility media touchpoint in your public portfolio.</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div className="flex justify-between items-center mb-2 flex-wrap gap-2">
+                                    <h3 className="text-xl font-bold text-white">THE SCAM | EP 02 (Finanza Club)</h3>
+                                    <div className="flex gap-3">
+                                        <a href="https://youtu.be/UFdTJofPW5E?si=JpeR9fvGzdB-4MqZ" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <Github className="w-3 h-3" /> YouTube
+                                        </a>
+                                        <a href="https://youtu.be/UFdTJofPW5E?si=JpeR9fvGzdB-4MqZ" target="_blank" rel="noopener noreferrer" className="text-xs flex items-center gap-1 text-neutral-400 hover:text-neutral-500 transition-colors">
+                                            <ExternalLink className="w-3 h-3" /> Watch
+                                        </a>
+                                    </div>
+                                </div>
+                                <p className="text-neutral-400 text-xs font-mono mb-3">Type: YouTube Feature, Finanza Club Series, Finance Storytelling</p>
+                                <p className="text-neutral-400 text-sm leading-relaxed mb-3">
+                                    Featured in THE SCAM | EP 02: The Beginning, extending the finance-series presence with continued educational storytelling and audience engagement.
+                                </p>
+                                <ul className="text-neutral-500 text-sm list-disc pl-5 space-y-1">
+                                    <li>Builds continuity from Episode 01 to a broader finance-content narrative.</li>
+                                    <li>Strengthens recurring creator visibility through series-based publishing.</li>
+                                    <li>Adds another strong media proof-point to your portfolio.</li>
                                 </ul>
                             </div>
                         </div>
@@ -175,10 +218,10 @@ const Resume = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div>
                                 <h4 className="text-neutral-300 font-bold mb-3 flex items-center gap-2">
-                                    <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full" /> Languages & Packages
+                                    <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full" /> Core & Technical Skills
                                 </h4>
                                 <div className="flex flex-wrap gap-2">
-                                    {['SQL', 'JavaScript', 'HTML/CSS', 'Python', 'Node.js', 'React', 'Next.js', 'MongoDB', 'MySQL', 'Express JS', 'Tailwind', 'Pandas'].map(skill => (
+                                    {['MS Excel', 'Basic Python', 'SEO', 'Basic Web Dev', 'Research', 'Marketing Coordination', 'Digital Marketing Fundamentals'].map(skill => (
                                         <span key={skill} className="px-3 py-1 bg-neutral-800/50 border border-neutral-700 text-neutral-400 rounded-lg text-xs">
                                             {skill}
                                         </span>
@@ -190,26 +233,32 @@ const Resume = () => {
                                     <span className="w-1.5 h-1.5 bg-neutral-400 rounded-full" /> Professional Skills
                                 </h4>
                                 <ul className="text-neutral-500 text-sm space-y-1 list-disc pl-5">
-                                    <li>Data Structures</li>
-                                    <li>Critical Thinking</li>
-                                    <li>Teamwork & Collaboration</li>
-                                    <li>Time Management</li>
-                                    <li>Decision-making</li>
+                                    <li>Social Media Support & Engagement</li>
+                                    <li>Content Coordination & Campaign Assistance</li>
+                                    <li>Communication & Community Building</li>
+                                    <li>Networking & Partnership Development</li>
+                                    <li>Strategic Thinking & Problem Solving</li>
                                 </ul>
                             </div>
                         </div>
                     </section>
 
-                    {/* Extra-Curricular */}
+                    {/* Professional Experience & Highlights */}
                     <section>
                         <div className="flex items-center gap-3 mb-4">
                             <Briefcase className="w-5 h-5 text-neutral-400" />
-                            <h2 className="text-xl font-bold uppercase tracking-widest text-neutral-500">Extra-Curricular</h2>
+                            <h2 className="text-xl font-bold uppercase tracking-widest text-neutral-500">Professional Experience & Highlights</h2>
                         </div>
                         <ul className="text-neutral-400 text-sm space-y-3 list-disc pl-5">
-                            <li>Consistently engaged in strength training and fitness, demonstrating discipline, perseverance, and goal-oriented focus.</li>
-                            <li>Applied principles of self-motivation, consistency, and continuous improvement from fitness to academic and professional projects.</li>
-                            <li>Active member of local gym and fitness communities, fostering team spirit, collaboration, and knowledge sharing.</li>
+                            <li>Co-Founder, Elite Vendz (Jan 2026 - Present): Co-leading automated beverage vending solutions in high-footfall locations with focus on partnerships and operations.</li>
+                            <li>Founder & CEO, Lehzaaa (Present): Building a fashion-tech platform connecting emerging designers with budget-conscious consumers.</li>
+                            <li>Founder, Nexora Web Development Agency (Feb 2025 - Sep 2025): Delivered websites and digital solutions for startups and small businesses.</li>
+                            <li>Marketing & Media Shoot Contributor, College Branding Initiatives (Feb 2025 - Sep 2025): Supported digital content and influencer-led promotional campaigns.</li>
+                            <li>Sales Intern, JMES Nagpur (Apr 2025 - May 2025): Assisted fundraising outreach, investor communication, and market research.</li>
+                            <li>Networking Specialist, Finance Club (Feb 2025 - Oct 2025): Managed outreach communications to improve event participation and collaboration.</li>
+                            <li>Research Paper Presenter (March 2025): Presented findings with strong communication, presentation, and analytical clarity.</li>
+                            <li>Short Film Production & Acting: Produced and acted in two short films published online with 6,000+ total views.</li>
+                            <li>Languages: English, Hindi | Interests: Marketing, Entrepreneurship, Digital Media, Community Building, Branding.</li>
                         </ul>
                     </section>
                 </div>

@@ -86,7 +86,7 @@ const Navbar = () => {
                         alt="Logo"
                         className="w-6 h-6"
                     />
-                    <Link to="/" className="text-sm font-bold tracking-[0.2em] text-white">ARHAN</Link>
+                    <Link to="/" className="text-sm font-bold tracking-[0.2em] text-white">PRANJAL</Link>
                 </div>
 
                 {/* Right Links */}
@@ -102,4 +102,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

@@ -1,48 +1,54 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Calendar, Code2, Globe, Music, Dumbbell, Rocket, ExternalLink, Github } from 'lucide-react';
+import { Calendar, Globe, Rocket, ExternalLink, Github } from 'lucide-react';
 
 const timelineData = [
     {
-        year: '2024',
+        year: '2026',
         projects: [
             {
-                title: 'The Spark & GymLogix',
-                company: 'Personal Project',
-                description: 'Began my coding journey and developed GymLogix, a full-stack fitness tracking platform. It features real-time data handling, personalized dashboards, and integration with ExerciseDB and Nutritionix APIs.',
-                tech: ['Next.js', 'Node.js', 'Express', 'MongoDB', 'Firebase', 'Tailwind CSS'],
-                image: '/projects/gymlogix.png',
-                icon: <Dumbbell className="w-6 h-6" />,
-                color: 'bg-neutral-600',
-                liveDemo: 'https://gym-logix.vercel.app/',
-                github: 'https://github.com/arhanalam789/GymLogix'
-            }
-        ]
-    },
-    {
-        year: '2025',
-        projects: [
-            {
-                title: 'RedWhisk Media',
-                company: 'Agency Project',
-                description: 'Engineered the digital presence for RedWhisk Media, focusing on a premium aesthetic for a strategic content editing agency. The site emphasizes visual excellence and seamless interactions.',
-                tech: ['React', 'Framer Motion', 'Tailwind CSS', 'Vite'],
-                image: '/projects/redwhisk.png',
+                title: 'Tomato Pay Economy',
+                company: 'Agricultural Finance Platform',
+                description: 'Agricultural finance re-imagined. Empowering tomato traders with flexible payment solutions including Tomato Pay and EMI plans designed for the modern tomato economy.',
+                tech: ['Wix', 'Branding', 'Landing Page', 'Agritech Finance'],
+                image: '/projects/tomato.png',
                 icon: <Globe className="w-6 h-6" />,
                 color: 'bg-neutral-500',
-                liveDemo: 'https://redwhisk.media/',
-                github: 'https://github.com/redwhiskofficial/RedWhisk.Web'
+                liveDemo: 'https://pranjalmishra2024.wixsite.com/my-site#Contact%20Us',
+                github: 'https://pranjalmishra2024.wixsite.com/my-site#Contact%20Us'
             },
             {
-                title: 'TuneHive',
-                company: 'Full-Stack Music Platform',
-                description: 'Developed a robust music streaming platform with a persistent global player, AWS S3 storage for high-quality audio, and a comprehensive admin panel for content management.',
-                tech: ['React.js', 'Node.js', 'Express', 'MongoDB', 'AWS S3', 'JWT'],
-                image: '/projects/tunehive-user.png',
-                icon: <Music className="w-6 h-6" />,
+                title: 'Launch Your Startup (YouTube Feature)',
+                company: 'Video Feature',
+                description: 'Featured in a long-form startup discussion focused on how teenagers and college students can launch real ventures, including practical startup journeys from Rishihood University.',
+                tech: ['YouTube', 'Founder Interview', 'Startup Storytelling', 'Long-form Content'],
+                image: '/projects/yt1.png',
+                icon: <Globe className="w-6 h-6" />,
                 color: 'bg-neutral-600',
-                liveDemo: 'https://tune-hive-six.vercel.app/',
-                github: 'https://github.com/arhanalam789/TuneHive'
+                liveDemo: 'https://www.youtube.com/watch?v=Edy-H6PBTt8',
+                github: 'https://www.youtube.com/watch?v=Edy-H6PBTt8'
+            },
+            {
+                title: 'THE SCAM | EP 01 (Finanza Club)',
+                company: 'Finance Series Feature',
+                description: 'Featured in Episode 01 of THE SCAM, the Finanza Club finance series introduction focused on financial awareness and engaging educational storytelling.',
+                tech: ['YouTube', 'Finanza Club', 'Finance Series', 'Educational Content'],
+                image: '/projects/yt2.png',
+                icon: <Globe className="w-6 h-6" />,
+                color: 'bg-neutral-500',
+                liveDemo: 'https://youtu.be/56NOmu_z-4A?si=e8rmZRl2HVW0Uy1B',
+                github: 'https://youtu.be/56NOmu_z-4A?si=e8rmZRl2HVW0Uy1B'
+            },
+            {
+                title: 'THE SCAM | EP 02 (Finanza Club)',
+                company: 'Finance Series Feature',
+                description: 'Featured in Episode 02 of THE SCAM, continuing the Finanza Club finance series with a deeper narrative on financial thinking and practical awareness.',
+                tech: ['YouTube', 'Finanza Club', 'Finance Series', 'Educational Content'],
+                image: '/projects/yt3.png',
+                icon: <Globe className="w-6 h-6" />,
+                color: 'bg-neutral-600',
+                liveDemo: 'https://youtu.be/UFdTJofPW5E?si=JpeR9fvGzdB-4MqZ',
+                github: 'https://youtu.be/UFdTJofPW5E?si=JpeR9fvGzdB-4MqZ'
             }
         ]
     }
@@ -169,7 +175,7 @@ const Timeline = () => {
                         viewport={{ once: true }}
                         className="text-neutral-500 text-center max-w-2xl text-lg px-4"
                     >
-                        From the first line of code in 2024 to building scalable full-stack applications in 2025. Here's a look at how I've grown.
+                        Curated projects are being added one by one with the same portfolio presentation style.
                     </motion.p>
                 </div>
 

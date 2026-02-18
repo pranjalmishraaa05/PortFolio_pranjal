@@ -36,7 +36,7 @@ const LoadingScreen = ({ onLoadingComplete }) => {
                 >
                     <h1 className="text-5xl md:text-8xl font-black tracking-[0.2em] text-white">
                         <EncryptedText
-                            text="ARHAN"
+                            text="PRANJAL"
                             revealDelayMs={80}
                             flipDelayMs={50}
                         />
